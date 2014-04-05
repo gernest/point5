@@ -8,5 +8,5 @@ You need not have to complete a for it to work.
 
 It uses sinatra and hosted on heroku free account
 
-created for just experimenting with jQue
+created for just experimenting with jquery
 
