@@ -1,0 +1,178 @@
+<div class="span-10" id="main-table">
+    <form>
+        <table>
+            <thead>
+            <tr>
+                <td colspan="5">
+                        <span id="table-settings">
+                          <input class="pure-button" type="button" style="margin-left: 10%" value="Add subject"
+                                 id="add-subject">
+                          <input class="pure-button" type="button" value="Calculate gpa" id="calc-gpa">
+                          <input class="pure-button" type="button" value="Preview" id="generate">
+                          <button class="pure-button" id="Clear-table">clear</button>
+                        </span>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="5">
+                    <label for="study-year">Year</label>
+                    <select id="study-year">
+                        <option></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="2">3</option>
+                        <option value="2">4</option>
+                        <option value="2">5</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="5">
+                    <label for="semester">Semester</label>
+                    <select id="semester">
+                        <option></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Code</th>
+                <th>Title</th>
+                <th>Units</th>
+                <th>Grade</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody id="t-body">
+            <tr class="c-row">
+                <td><input id="code" style="width: 90px;"></td>
+                <td><input id="title" class="text"></td>
+                <td><input id="unit" type="number" value="3" style="width: 50px;"></td>
+                <td>
+                    <select id="grade" class="grade">
+                        <option></option>
+                        <option value="i">--</option>
+                        <option value="a">A</option>
+                        <option value="b+">B+</option>
+                        <option value="b+">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="f">F</option>
+                    </select>
+                </td>
+                <td id="status"></td>
+            </tr>
+            <tr class="row-1">
+                <td><input id="code" style="width: 90px;"></td>
+                <td><input id="title" class="text"></td>
+                <td><input id="unit" type="number" value="3" style="width: 50px;"></td>
+                <td>
+                    <select id="grade" class="grade">
+                        <option></option>
+                        <option value="i">--</option>
+                        <option value="a">A</option>
+                        <option value="b+">B+</option>
+                        <option value="b+">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="f">F</option>
+                    </select>
+                </td>
+                <td id="status"></td>
+            </tr>
+            <tr class="row-1">
+                <td><input id="code" style="width: 90px;"></td>
+                <td><input id="title" class="text"></td>
+                <td><input id="unit" type="number" value="3" style="width: 50px;"></td>
+                <td>
+                    <select id="grade" class="grade">
+                        <option></option>
+                        <option value="i">--</option>
+                        <option value="a">A</option>
+                        <option value="b+">B+</option>
+                        <option value="b+">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="f">F</option>
+                    </select>
+                </td>
+                <td id="status"></td>
+            </tr>
+            <tr class="row-1">
+                <td><input id="code" style="width: 90px;"></td>
+                <td><input id="title" class="text"></td>
+                <td><input id="unit" type="number" value="3" style="width: 50px;"></td>
+                <td>
+                    <select id="grade" class="grade">
+                        <option></option>
+                        <option value="i">--</option>
+                        <option value="a">A</option>
+                        <option value="b+">B+</option>
+                        <option value="b+">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="f">F</option>
+                    </select>
+                </td>
+                <td id="status"></td>
+            </tr>
+            <tr class="row-1">
+                <td><input id="code" style="width: 90px;"></td>
+                <td><input id="title" class="text"></td>
+                <td><input id="unit" type="number" value="3" style="width: 50px;"></td>
+                <td>
+                    <select id="grade" class="grade">
+                        <option></option>
+                        <option value="i">--</option>
+                        <option value="a">A</option>
+                        <option value="b+">B+</option>
+                        <option value="b+">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="f">F</option>
+                    </select>
+                </td>
+                <td id="status"></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="4" class="rst">
+                    Your gpa is
+                </td>
+                <td class="gpa"
+                >
+
+                </td>            
+            </tfoot>
+        </table>
+    </form>
+</div>
+
+<div id="r-table" class="span-15">
+    <table id="yeear-result" class="pure-table">
+        <thead>
+        <tr>
+            <th colspan="5"></th>
+        </tr>
+        <tr>
+            <th>code</th>
+            <th>title</th>
+            <th>unit</th>
+            <th>grade</th>
+            <th>status</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="4" id="r-rst"> Your current GPA</td>
+            <td id="r-gpa"></td>
+        </tr>
+        </tfoot>
+        <tbody id="r-body">
+
+        </tbody>
+    </table>
+    <button id="back-button" class="pure-button">Go Back</button>
+</div>

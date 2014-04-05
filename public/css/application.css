@@ -1,0 +1,121 @@
+/*
+*staili za application ya point5
+*Copyright 2014, geofrey ernest
+*geofreyernest@live.com
+*/
+
+.bg-heder {
+    font-family: Menlo, Consolas, "Lucida Console", 'ＭＳ Ｐゴシック', Monospace;
+    font-size: x-large;
+    text-align: center;
+}
+
+.gpa, #r-gpa {
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+    font-size: larger;
+    font-stretch: ultra-expanded;
+    color: darkblue;
+    text-align: center;
+    border-bottom: 1px blue ridge;
+}
+
+.rst, #r-rst {
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+    font-size: larger;
+    font-stretch: ultra-expanded;
+    color: darkblue;
+    text-align: center;
+    border-bottom: 1px blue groove;
+}
+
+#r-rst,#r-gpa {
+    border: 1px solid #cbcbcb;
+}
+
+body {
+    font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+    font-size: medium;
+    font-stretch: ultra-expanded
+}
+
+#add-subject {
+    margin-left: 20%;
+}
+
+.menu {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    display: block;
+    outline: none;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding: 2px .4em;
+    line-height: 1.5;
+    min-height: 0;
+    font-weight: normal;
+    text-align: center;
+}
+
+.menu li {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px #bbbbbb inset;
+}
+
+.menu a:hover {
+    background: #f5f5f5;
+}
+
+.pure-button {
+    background: #f5f5f5;
+    color: blue;
+}
+
+#r-title {
+    width: 300px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#yeear-result {
+    text-transform: capitalize;
+}
+
+.good-para {
+    margin-top: 20px;
+    height: 100px;
+    border: 1px #ffffff groove;
+
+}
+
+.good-para p {
+    margin-top: 5%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.about {
+    background: #f5f5f5;
+}
+
+.about div {
+    margin-right: 5px;
+}
+
+.usage h2 {
+    border-bottom: 1px blue inset;
+}
+
+.usage strong {
+    font-size: larger;
+    color: blue;
+}
+.foot{
+    text-align: center;
+}
